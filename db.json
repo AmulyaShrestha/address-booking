@@ -1,0 +1,24 @@
+{
+  "address": [
+    {
+      "address": "Nepal",
+      "user": "Amulya Shrestha",
+      "id": 1
+    },
+    {
+      "address": "England",
+      "user": "Markus",
+      "id": 2
+    },
+    {
+      "address": "Paris",
+      "user": "Evelyn Davis",
+      "id": 3
+    },
+    {
+      "id": 7,
+      "user": "1212",
+      "address": "vb"
+    }
+  ]
+}
