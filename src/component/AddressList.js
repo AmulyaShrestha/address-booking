@@ -1,6 +1,6 @@
 import React from 'react'
-import UpdateList from './UpdatedList';
-import DeleteList from './DeletedList';
+import UpdateList from './UpdateAddressModal';
+import DeleteList from './DeleteAddressModal';
 
 function Lists(props) {
     let rows = [];

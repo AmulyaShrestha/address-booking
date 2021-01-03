@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import Home from './component/Home';
 import AddressStore from "./store/AddressStore";
 
-const app = document.getElementById("app")
+const app = document.getElementById("app");
 
-ReactDOM.render(<App store={AddressStore}/>, app)
+ReactDOM.render(<Home store={AddressStore}/>, app)

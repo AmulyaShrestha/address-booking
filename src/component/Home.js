@@ -1,11 +1,11 @@
 import React, {Component} from "react";
-import CreateList from "./AddedList";
-import Lists from "./List";
+import CreateList from "./AddAddressModal";
+import Lists from "./AddressList";
 import {observer} from "mobx-react";
-import {Address} from "./store/AddressStore";
+import {Address} from "../store/AddressStore";
 
 @observer
-class App extends Component {
+class Home extends Component {
 
     endPoint = `http://localhost:3001/address`;
 
@@ -59,7 +59,6 @@ class App extends Component {
             },
             body: JSON.stringify(this.props.store.singleAddressData)
         }).then( res => {
-            console.log("RESSS", res);
                 this.props.store.singleAddressData = {
                     id: '',
                     user: '',
@@ -156,4 +155,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default Home;

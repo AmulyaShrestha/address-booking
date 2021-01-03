@@ -1,11 +1,6 @@
 {
   "address": [
     {
-      "address": "Nepal",
-      "user": "Amulya Shrestha",
-      "id": 1
-    },
-    {
       "address": "England",
       "user": "Markus",
       "id": 2
@@ -17,8 +12,13 @@
     },
     {
       "id": 7,
-      "user": "1212",
-      "address": "vb"
+      "user": "Genghis Khan",
+      "address": "Mongolia"
+    },
+    {
+      "id": 8,
+      "user": "Hazard",
+      "address": "Chelsea"
     }
   ]
 }
